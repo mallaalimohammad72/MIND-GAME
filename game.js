@@ -19,7 +19,7 @@
                 document.getElementById("userInput").disabled = true;
             } else if (userNumber > myNumber) {
                 message.innerText = "Your number is too large. Enter another number:";
-                message.style.color = "orange";
+                message.style.color = "Blue";
                 document.getElementById("userInput").value = "";
             } else {
                 message.innerText = "Your number is too small. Enter another number:";
